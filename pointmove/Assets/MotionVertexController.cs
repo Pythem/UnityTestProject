@@ -11,6 +11,8 @@ public class MotionVertexController : MonoBehaviour
     private Vector3 direction;
     private float t = 0;
 
+    public float MoveSpeed = 1;
+
     void Start()
     {
         trans = transform;
@@ -27,6 +29,23 @@ public class MotionVertexController : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(Vector3.forward * Time.deltaTime * MoveSpeed);
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(Vector3.left * Time.deltaTime * MoveSpeed);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(Vector3.back * Time.deltaTime * MoveSpeed);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(Vector3.right * Time.deltaTime * MoveSpeed);
+        }
+
         newPosition = trans.position;
 
         if (newPosition == lastPosition)

@@ -2,3 +2,4 @@
 
 
 pointMove：顶点运动模糊
+Shader_PictureGraying：图片灰度化处理

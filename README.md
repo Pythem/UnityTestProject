@@ -4,3 +4,5 @@
 pointMove：顶点运动模糊
   
 Shader_PictureGraying：图片灰度化处理
+
+GrayingPractice_1:Shader实验室:灰度化实践(一)

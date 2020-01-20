@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 344}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 67
+  controlID: 41
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 66
+  controlID: 40
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 494}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
-  controlID: 111
+  controlID: 80
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -601,11 +601,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.07374117, y: 0.0065787835, z: -0.00048652565, w: -0.99725735}
     speed: 2
-    m_Value: {x: -0.07374104, y: 0.0065787723, z: -0.00048652483, w: -0.9972557}
+    m_Value: {x: -0.073741175, y: 0.006578784, z: -0.00048652568, w: -0.9972574}
   m_Size:
     m_Target: 219.31091
     speed: 2
-    m_Value: 212.14838
+    m_Value: 219.31091
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1023,8 +1023,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: be2f0000
-      m_LastClickedID: 12222
+      m_SelectedIDs: 822e0000
+      m_LastClickedID: 0
       m_ExpandedIDs: 76fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1088,7 +1088,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Shader
+    - Assets/Material
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -1131,18 +1131,18 @@ MonoBehaviour:
     m_ExpandedIDs: ffffffff00000000a62c0000102d0000242d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: TheMaximumValueMethod
-      m_OriginalName: TheMaximumValueMethod
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 390
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
